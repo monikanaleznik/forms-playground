@@ -9,7 +9,18 @@
   </head>
   <body>
     <main>
-      <form action="jakis url" class="form">
+      <form action="http://dev.cotenfrontend.pl" method="POST" class="form">
+        <p>
+          <label for="name">Your name:</label>
+          <input name="name" value="monia" required placeholder="please enter your name" id="name" />
+        </p>
+        <p>
+          <label for="riddle">Your riddle:</label><br />
+          <input type="text" value="cotenfrontend" name="riddle" id="riddle" />
+        </p>
+        <input type="submit" value="send the form">
+      </form>
+      <form>
         <p>
           <label for="name">Your name:</label>
           <input name="name" required placeholder="please enter your name" id="name" />
